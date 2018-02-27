@@ -5,7 +5,7 @@ are implemented herein. Both of them aims to solve the satisfiability
 of a CNF formula. Further information about them could be found in
 [[http://satassociation.org/articles/sat.pdf][SAT Basics]].
 
-The documentation about the modules it's hosted [[https://danielrodcha.github.io/SAT-canonical/][here?]].
+The documentation about the modules it's hosted [[https://danielrodcha.github.io/SAT-DPLL/][here]].
 
 * exDIMACS study DPP
 This directory stores several examples of sets of formulas in DIMACS format. See [[http://www.satcompetition.org/2009/format-benchmarks2009.html][DIMACS format]] for further
