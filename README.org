@@ -2,7 +2,8 @@
 
 Davis-Putnam Procedure and Davis-Putnam-Loveland-Logemann Procedure
 are implemented herein. Both of them aims to solve the satisfiability
-of a CNF formula.
+of a CNF formula. Further information about them could be found in
+[[http://satassociation.org/articles/sat.pdf][SAT Basics]].
 
 The documentation about the modules it's hosted [[https://danielrodcha.github.io/SAT-canonical/][here?]].
 
@@ -116,8 +117,9 @@ True
 + Has 100 variables
 + It's True
 #+BEGIN_SRC haskell
-*DPP> dPP "exDIMACS/hard/sat100.cnf"
- *** Exception: stack overflow
+*DPLL> dPLL "exDIMACS/hard/sat100.cnf"
+True
+(49.64 secs, 20,665,524,672 bytes)
 #+END_SRC
 **** sat250
 + Has 1065 clauses
