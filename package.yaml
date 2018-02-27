@@ -24,6 +24,7 @@ library:
   - Heuristics
   - Preprocessing
   - DPP
+  - DPLL
 executables:
   satCNF:
     main: Main.hs

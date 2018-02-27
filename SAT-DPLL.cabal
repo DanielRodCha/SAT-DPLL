@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 95ddd2d34ceae3efa11e168f59c50bb883f186e514afafa22c8552a694174ef2
+-- hash: 77ff9d0c5efee6f2177bf86aec8da1b020b8237142364ada935694d6b9f05c7d
 
 name:           SAT-DPLL
 version:        0.1.0.0
@@ -36,6 +36,7 @@ library
       Heuristics
       Preprocessing
       DPP
+      DPLL
   other-modules:
       Paths_SAT_DPLL
   default-language: Haskell2010
@@ -56,6 +57,7 @@ executable satCNF
     , hspec
     , parsec
   other-modules:
+      DPLL
       DPP
       Heuristics
       Logic
@@ -81,6 +83,7 @@ test-suite doctests
     , hspec
     , parsec
   other-modules:
+      DPLL
       DPP
       Heuristics
       Logic
@@ -104,6 +107,7 @@ test-suite spec
     , hspec
     , parsec
   other-modules:
+      DPLL
       DPP
       Heuristics
       Logic
@@ -127,6 +131,7 @@ benchmark bench-innit
     , hspec
     , parsec
   other-modules:
+      DPLL
       DPP
       Heuristics
       Logic
